@@ -15,4 +15,4 @@ Git&Github 실습 원격 저장소
 3) 원격 저장소 복제
 4) README.md 파일
 5) gitignore 파일
-6) 
+
