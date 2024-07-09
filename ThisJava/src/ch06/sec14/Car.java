@@ -17,5 +17,14 @@ public class Car {
 		}
 
 	}
+	
+	public boolean isStop() {
+		return stop;
+	}
+	
+	public void setStop(boolean stop) {
+		this.stop = stop;
+		if(stop == true) this.speed = 0;
+	}
 
 }
