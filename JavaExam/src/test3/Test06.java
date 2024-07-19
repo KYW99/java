@@ -17,6 +17,7 @@ class Adder{
 	private int x;
 	private int y;
 	
+	//오버로딩 메스드 이름이 같음
 	public void add(int x , int y) {
 		this.x += x;
 		y++;
@@ -25,6 +26,7 @@ class Adder{
 		this.x += arr[0];
 		this.y += arr[1];
 	}
+	//정적메서드,클래스메서드 , 참조연산자 .
 	public static void add(Adder a2) {
 		a2.x  += 10;
 	}

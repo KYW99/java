@@ -33,6 +33,15 @@ class CarFactory{
 		return new Vehicle(name, price);
 	}
 }
+/* 싱글톤 눈에 익히기
+ * private static CarFactory instance = new CarFactory();
+	private CarFactory() {}
+	
+	public static CarFactory getInstance() {
+		return instance;
+	}
+ */
+
 
 public class Test05 {
 	public static void main(String[] args) {

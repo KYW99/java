@@ -6,7 +6,7 @@ package test3;
  * 내용 : 정적변수 연습문제
  */
 class Student{
-	static int studentId;
+	public static int studentId;
 	private String studentName;
 	private String major;
 	private int grade;
@@ -32,7 +32,7 @@ class Student{
 public class Test04 {
 	public static void main(String[] args) {
 		
-		Student.studentId = 20201000;
+		Student.studentId = 20201000; //student클래스로 직접 참조 >static
 		
 		Student kim = new Student("김유신", "국문과", 1);
 		kim.studentInfo();

@@ -10,8 +10,9 @@ class King{
 	private String name;
 	private int year;
 	
+	//생성자 명이 같으니 매개변수로 구분
 	public King(int year){
-		this("정조");
+		this("정조"); //생성자 호출
 		this.year = year;
 	}
 	
@@ -29,10 +30,10 @@ class King{
 	}
 		
 }
-
+ // 생성자 오버로딩
 public class Test02 {
 	public static void main(String[] args) {
-		King k1 = new King("태조",1392);
+		King k1 = new King("태조",1392);  //생성자 호출
 	    King k2 = new King("세종대왕");
 	    King k3 = new King(1776);
 	    

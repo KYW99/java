@@ -3,7 +3,7 @@ package test3;
 import java.util.jar.Attributes.Name;
 
 /*
- * 날짜 : 2024/07/1
+ * 날짜 : 2024/07/11
  * 이름 : 원기연
  * 내용 : 자바 클래스 연습문제
  */
@@ -12,10 +12,12 @@ public class Test01 {
 	private String name;
 	private int age;
 	
-	public Test01(String name, int age) {
+	public Test01(String name, int age) { //생성자
 		this.name = name;
 		this.age = age;
 	}
+	
+	//인스턴트메서드ㄴ
 	
 	public void show() {
 		System.out.println("==================");
